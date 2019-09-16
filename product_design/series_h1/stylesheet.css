@@ -1,0 +1,143 @@
+.inheader.sh{
+  left: 55vw;
+  top: 10vw;
+  width: 30vw;
+}
+.inheader.sh p{
+  position: relative;
+  top: -1vw;
+}
+#apple_watch{
+  width: 25vw;
+  padding-left: 7.5vw;
+}
+.threex1{
+  display: grid;
+  grid-template-columns: repeat(3,1fr)
+}
+.twox1{
+  display: grid;
+  grid-template-columns: repeat(2,1fr)
+}
+.threex1 img{
+  width: 20vw;
+}
+.twox1 .move{
+  width: 30vw;
+  padding: 2vw;
+}
+.twox1 .screen{
+  width: 20vw;
+  padding: 2vw;
+}
+.textbox>img{
+  width: 100%;
+}
+.body{
+  position: relative;
+  height:40vw;
+}
+.body>img{
+  width: 20vw;
+  position: absolute;
+  padding: 2vw;
+}
+img.one{
+  z-index: 100;
+}
+img.two.top{
+  z-index: 99;
+}
+img.three.top{
+  z-index: 98;
+}
+img.four{
+  z-index: 97;
+}
+img.two.bottom{
+  z-index: 96;
+}
+img.three.bottom{
+  z-index: 95;
+}
+img.five{
+  z-index: 94;
+}
+img#bottom{
+  width: 80vw;
+  padding: 0 10vw;
+}
+.straps{
+  position: relative;
+  height: 27.5vw;
+  padding: 2vw;
+}
+img.strap_whole{
+  width: 30vw;
+  position: absolute;
+}
+img.gif{
+  width:20vw;
+}
+img.strap_number{
+  width:5vw;
+}
+.strap{
+  position: absolute;
+  width:5vw;
+  height: 5vw;
+}
+.strap.under img.gif{
+  opacity: 0;
+}
+.strap.over{
+  opacity: 0;
+}
+.strap.over:hover{
+  opacity: 100;
+}
+.overwatch{
+  width:20vw;
+  height: 20vw;
+  position: absolute;
+  top:6vw;
+  left:34vw;
+}
+.strap.clip_bottom{
+  top:14vw;
+  left: 4vw;
+}
+.strap.clip_bottom img.gif{
+  position: absolute;
+  top:-8vw;
+  left:30vw;
+}
+.strap.clip_top{
+  top:5vw;
+  left:25vw;
+}
+.strap.clip_top img.gif{
+  position: absolute;
+  top:1vw;
+  left:9vw;
+}
+.strap.tighten{
+  top:20vw;
+  left: 18vw;
+}
+.strap.tighten img.gif{
+  position: absolute;
+  top:-14vw;
+  left:16vw;
+}
+.programs img{
+  height: 5vw;
+}
+.product.programs{
+  margin-left: 17.5vw;
+}
+.presentation.programs{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 0 6.5vw;
+}

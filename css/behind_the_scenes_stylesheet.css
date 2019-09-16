@@ -1,0 +1,38 @@
+.textblock.behind_the_scenes2{
+  height:8vw;
+}
+.forlink{
+  z-index: 10;
+  padding-left: 19vw;
+}
+.twocolumnblock{
+  display: grid;
+  grid-template-columns: repeat(2,1fr)
+}
+.contentblock img{
+  width: 26vw;
+  padding: 1.5vw;
+}
+div.overlay{
+  position: relative;
+}
+.overlay .over{
+  z-index: 100;
+  position: absolute;
+  top:0;
+  left:0;
+  opacity: 0;
+}
+.overlay .over:hover{
+  opacity: 100;
+}
+.contentblock img.centerphoto{
+  width:36vw;
+  position: relative;
+  left: 9.5vw;
+}
+.contentblock img.bullet_journal_photo{
+  width: 24vw;
+  position: relative;
+  left: 15.5vw;
+}

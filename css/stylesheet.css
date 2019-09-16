@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700|Varela');
+@font-face {
+    font-family: 'varelaregular';
+    src: url('../assets/webfonts/varela-regular-webfont.woff2') format('woff2'),
+         url('../assets/webfonts/varela-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nunito_sansregular';
+    src: url('../assets/webfonts/nunitosans-extralight-webfont.woff2') format('woff2'),
+         url('../assets/webfonts/nunitosans-extralight-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nunito_sansregular';
+    src: url('../assets/webfonts/nunitosans-extralightitalic-webfont.woff2') format('woff2'),
+         url('../assets/webfonts/nunitosans-extralightitalic-webfont.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'nunito_sansregular';
+    src: url('../assets/webfonts/nunitosans-regularitalic-webfont.woff2') format('woff2'),
+         url('../assets/webfonts/nunitosans-regularitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'nunito_sansregular';
+    src: url('../assets/webfonts/nunitosans-regular-webfont.woff2') format('woff2'),
+         url('../assets/webfonts/nunitosans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nunito_sansregular';
+    src: url('../assets/webfonts/../assets/webfonts/nunitosans-bold-webfont.woff2') format('woff2'),
+         url('../assets/webfonts/nunitosans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nunito_sansbold_italic';
+    src: url('../assets/webfonts/nunitosans-bolditalic-webfont.woff2') format('woff2'),
+         url('../assets/webfonts/nunitosans-bolditalic-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'nunito_sansregular';
+    src: url('../assets/webfonts/nunitosans-light-webfont.woff2') format('woff2'),
+         url('../assets/webfonts/nunitosans-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'nunito_sansregular';
+    src: url('../assets/webfonts/nunitosans-lightitalic-webfont.woff2') format('woff2'),
+         url('../assets/webfonts/nunitosans-lightitalic-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+
+}
+h1{
+  z-index: 200;
+  font-family: 'Varela', 'varelaregular', sans-serif;
+  font-weight: bold;
+}
+h1.homepage{
+  font-size: 6.5vw;
+  letter-spacing: 0.4vw;
+  line-height: 1;
+}
+h1.inbar{
+  font-size: 2.5vw;
+  letter-spacing: 0.14vw;
+  line-height: 1;
+  position: fixed;
+  top: 0vw;
+  left: 5vw;
+}
+.inheader h1{
+  font-size: 3.75vw;
+  letter-spacing: 0.1vw;
+  line-height: 4vw;
+}
+h2{
+  font-family: 'Varela', 'varelaregular', sans-serif;
+  font-size: 3.75vw;
+  letter-spacing: 0.1vw;
+  line-height: 4vw;
+}
+/* h2{
+  font-family: 'Nunito Sans', 'nunito_sansregular', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2.2vw;
+  letter-spacing: 0.14vw;
+  line-height: 150%;
+} */
+h2.centered{
+  text-align: center;
+}
+h3{
+  font-family: 'Nunito Sans', 'nunito_sansregular', sans-serif;
+  font-weight: 200;
+  font-size: 1vw;
+  text-align: right;
+  position: relative;
+  top: -1vw;
+  text-transform: uppercase;
+}
+.textbox h3{
+  text-align: center;
+  top: 0;
+}
+/* h4{
+  font-family: 'Varela', 'varelaregular', sans-serif;
+  font-weight: 700;
+  font-size: 1.65vw;
+  letter-spacing: 0.04vw;
+  margin-top: 1.5vw;
+  margin-bottom: 0;
+} */
+/* h4{
+  font-family: 'Nunito Sans', 'nunito_sansregular', sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.25vw;
+  letter-spacing: 0.1vw;
+  line-height: 150%;
+  position: relative;
+  top:1vw;
+  text-align: center;
+} */
+h4{
+  font-family: 'Nunito Sans', 'nunito_sansregular', sans-serif;
+  font-size: 1.4vw;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  top:0.5vw;
+}
+p{
+  font-family: 'Nunito Sans', 'nunito_sansregular', sans-serif;
+  font-weight: 300;
+  font-size: 1.6vw;
+  margin-bottom: 1.6vw;
+}
+.textbox p{
+  font-size: 1.2vw;
+  font-weight: 200;
+}
+p.og{
+  font-family: 'Nunito Sans', 'nunito_sansregular', sans-serif;
+  font-weight: 400;
+  color: black;
+  font-size: 1.6vw;
+  margin-bottom: 1.6vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+}
+.inheader p{
+  font-size: 1.45vw;
+  line-height: 1.55vw;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.topmenu{
+  font-family: 'Nunito Sans', 'nunito_sansregular', sans-serif;
+  font-weight: 200;
+  font-size: 1.8vw;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  display: block;
+}
+.topmenu:hover{
+  font-size: 2.02vw;
+}
+.barmenu{
+  z-index: 200;
+}
+.whitebar{
+  z-index: 199;
+  width: 200vw;
+  height: 8.5vw;
+  background-color: white;
+}
+.barmenu.attop{
+  position: fixed;
+}
+ul{
+  margin-block-start:0;
+  margin-block-end: 0;
+}
+.barmenu>li{
+  display: inline-block;
+}
+.barmenu a{
+  font-family: 'Nunito Sans', 'nunito_sansregular', sans-serif;
+  font-size: 1.4vw;
+  text-transform: uppercase;
+  letter-spacing: 0.2vw;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  width:15vw;
+  margin: 0.3vw 0.25vw ;
+  border: solid 0.5vw transparent;
+  padding: 0.5vw;
+}
+.barmenu a:hover{
+  font-size: 1.5vw;
+  margin: 0vw 0.25vw;
+  padding: 0.5vw;
+  border: solid 0.5vw black;
+}
+.backtotop{
+  font-family: 'Nunito Sans', 'nunito_sansregular', sans-serif;
+  font-size: 1vw;
+  text-transform: uppercase;
+  letter-spacing: 0.1vw;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+.backtotop:hover{
+  font-size: 1.2vw;
+}
+.under_construction{
+  height:100vh;
+  width: 100vw;
+}
+.under_construction>.dialogueBox{
+  height: 25vw;
+  width: 25vw;
+  position: relative;
+  top: 15vw;
+  left: 35vw;
+}
+.under_construction>.dialogueBox>img{
+  z-index: 10;
+  height: 25vw;
+  width: 25vw;
+}
+.under_construction>.dialogueBox>.text{
+  z-index:20;
+  text-align: center;
+  position: relative;
+  top:-27.5vw;
+  padding: 3vw;
+}
+.under_construction>.dialogueBox a{
+  font-weight: 700;
+}
+.footer p{
+  text-align: center;
+}

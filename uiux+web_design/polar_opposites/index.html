@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
+		<meta charset="utf-8">
+		<meta name="description" content="A web design project that enables users to compare temperatures from various locations.">
+		<link href="../../css/stylesheet.css" rel="stylesheet">
+		<link href="../../css/default_positioning.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="../../assets/crane_icon.png">
+		<link href="css/polar_opposites_stylesheet.css" rel="stylesheet">
+		<title>Polar Opposites</title>
+	</head>
+	<body>
+	<main>
+		<div id=polaroppositestop></div>
+		<h1 class=inbar>
+			<a class=second href="../../index.html">Amy<br>Huang</a>
+		</h1>
+    <div class="whitebar otherpage">
+      <ul class="barmenu attop">
+				<li><a class=uiux+web_design href="../../uiux+web_design/index.html">UIUX + Web<br>Design</a></li>
+				<li><a class=product_design href="../../product_design/index.html">Product<br>Design</a></li>
+	      <li><a class=initiatives+experiences href="../../initiatives+experiences/index.html">Initiatives +<br>Experiences</a></li>
+	      <li><a class=paper+wood+metal href="../../paper+wood+metal/index.html"> Paper + Wood<br>+ Metal</a></li>
+	    </ul>
+		</div>
+		<div class=belowbar>
+			<div class="header">
+				<img src="assets/inheader.png">
+				<div class="inheader l w">
+					<h1>Polar Opposites</h1>
+					<p>Curious about what's going on on the other side of the world? This is the tag line of Polar Opposites and the question which drove me to develop a weather app which helps the user compare weather conditions between different places.</p>
+				</div>
+			</div>
+			<div class="contentblock">
+				<div class="textbox centered">
+					<h4>Introduction</h4>
+
+					<p>This project looks at the presentation of data. The aspect of data presentation I am most interested in is the systems through which we seek and receive dynamic data, like the weather which changes by day and even by hour.</p>
+
+					<p>On one level of interaction, the user may check the local weather before heading out in the morning. Most of the time, the in-built weather app on a smart phone would suffice for this.</p>
+
+					<p>But what about users seeking a deeper understanding of the weather? Why go beyond the daily weather which greets us from our phone screens?</p>
+
+					<p>Breaking it down, I found that there are two crucial aspects that can vary with more in depth weather data.</p>
+
+					<p class=og>Time and location.</p>
+
+					<p>Past data allows users to spot trends or seasonal patterns. Future data allows users to plan ahead. Viewing data in different time increments helps analysis and planning for different contexts.</p>
+
+					<p>Changing locations introduces the possibility of travel or comparison.</p>
+
+					<p>Hence, typical users who are looking at this data would be travellers who seek information about their destination and curious individuals who are researching about foreign places.</p>
+
+					<p>In both these cases, a comparison to the user's local weather or the weather of the previous or next destination of travel would be an extremely helpful tool. Having cleanly layed out screenshots would also be a valuable reference. However, this feature is currently unavailble on traditional weather sites.</p>
+
+					<p>Hence, my goal is to develop a weather app - accessible both via mobile and online - which serves as an easy tool for weather comparison and an intuitive reference for weather changes over time.</p>
+
+					<p>The idea is to make any two places, no matter how far apart they are, easily comparable as they sit side by side on the user's screen. And what two places on earth could be are further apart than the North and South poles?</p>
+
+					<p>Hence, the idea of "Polar Opposites", as well as the initial graphics was born.</p>
+
+					<h4>Wireframe</h4>
+
+					<p>The wireframe helped me develop a structure for the most important features of the product,</p>
+
+					<p class=og>
+						Different timeframes accompanied by levels of detail,<br>
+						linear scroll-through timelines,<br>
+						easy to screenshot calendar views, and<br>
+						a balance of information between two locations throughout.
+					</p>
+
+					<h3>Hover!</h3>
+				</div>
+				<div class=wireframe>
+					<img class=full_content_width src="assets/wireframe_under.jpg">
+					<img class="full_content_width over" src="assets/wireframe_over.jpg">
+				</div>
+				<div class="textbox centered">
+					<h4>Styles and Assets</h4>
+					<p>To help organise and deliver the plethora of information, I established a hierachy and aesthetic which is informative yet simple and adaptable for the changing locations, times, and formats.</p>
+
+					<p>Funnily enough, although I questioned the non-decorative value of the animated characters at first, throughout my own coding process, they became the one of the most helpful visual cues in differentiating the two locations.</p>
+				</div>
+				<div class=style_guide>
+					<img class="med_content_width" src="assets/style_guide.png">
+					<div class=threebytwoblock>
+						<div class="sprite_polar_bear_happy"></div>
+						<div class="sprite_polar_bear_confused"></div>
+						<div class="sprite_polar_bear_sad"></div>
+						<div class="sprite_penguin_happy"></div>
+						<div class="sprite_penguin_confused"></div>
+						<div class="sprite_penguin_sad"></div>
+					</div>
+				</div>
+			</div>
+			<div class="contentblock">
+				<div class="textbox centered">
+					<p>I then used web code and weather APIs to build a working web prototype of the product. I was unable to create a full running version due to two main restrictions.</p>
+				</div>
+			</div>
+			<div class="contentblock">
+				<div class="textbox centered">
+					<div class=issue1>
+						<img src="assets/issue_api.gif">
+						<div>
+							<p>The first restiction was API availability. Although I was able to link current weather data to my site for free, past and future weather data is only accessible through paying a subscription to the providers.</p>
+						</div>
+					</div>
+					<div class=issue2>
+						<img src="assets/issue_time.gif">
+						<div>
+							<p>The second restriction I had was time. As this app uses characters (national animals) and colour schemes (with a formula for working out combinations) to each country, there would need to be hundreds of assets added to make the full site.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contentblock">
+				<div class="textbox centered">
+					<h4>Features</h4>
+
+					<p>The main desired features - different timeframes and levels of detail, linear scroll-through timelines, and easy to screenshot calendar views - were achieved by:
+				</div>
+				<div class="productfeature1">
+					<img src="assets/levels_of_detail_desktop.gif">
+					<img src="assets/levels_of_detail_mobile.gif">
+					<div class=textbox><p>Having an easily accessible menu of typically helpful views (day, week, month) that the user can easily switch between. This way, they can navigate from a comprehensive month view to look for further detail in a day view in a second.</p></div>
+				</div>
+				<div class="productfeature2">
+					<img src="assets/linear_timeline_desktop.gif">
+					<img src="assets/linear_timeline_mobile.gif">
+					<div class=textbox><p>Using a linear timeline as the default layout so that users can scroll through and see time pass in the way we are most used to viewing it: linear. This view also gives users a time series graph of the temperature changes for an added layer of visual information. This is represented here in the prototype by the jagged line in the background.</p></div>
+				</div>
+				<div class="productfeature3">
+					<img src="assets/screenshot_version_desktop.gif">
+					<img src="assets/screenshot_version_mobile.gif">
+					<div class=textbox><p>Allowing users to switch at any time between linear and calendar views. All the calendar views are made to fit the user's screen, making screenshotting the information for future reference much easier.</p></div>
+				</div>
+				<div class="textbox centered">
+					<p>Below is the coded site so far! click on "take me back in time" to see what clicking through the days on linear day view looks like.</p>
+
+					<p>Fun fact! The first page shows the weather at the North and South poles right now! If you come back later, you might be able to see it change and see the characters react differently.</p>
+
+					<h3>Click "get weather" and start interacting with the page!</h3>
+				</div>
+			</div>
+			<div class="contentblocklarge">
+				<iframe class=polar_opposites src="website/html/index.html"></iframe>
+			</div>
+			<div class="contentblock">
+				<div class="textbox centered">
+					<div class=footer>
+						<p>Programs used in the creation of this product include</p>
+						<div class="product programs">
+							<img src="../../assets/adobe_xd_icon.svg">
+							<img src="../../assets/adobe_illustrator_icon.png">
+							<img src="../../assets/html_icon.png">
+							<img src="../../assets/css_icon.png">
+							<img src="../../assets/javascript_icon.png">
+						</div>
+						<p>Programs used in the compliation of this product for presentation include</p>
+						<div class="presentation programs">
+							<img src="../../assets/adobe_premiere_icon.png">
+							<img src="../../assets/mock_video_icon.png">
+						</div>
+						<p>Special thanks to RISD Web Design Winter 2019.</p>
+					</div>
+				</div>
+			</div>
+
+			<footer class=indexbottom>
+		    <a class=backtotop href="#polaroppositestop">back to top</a>
+		  </footer>
+		</div>
+  </main>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/parallax_scroll_index.js"></script>
+  </body>
+</html>

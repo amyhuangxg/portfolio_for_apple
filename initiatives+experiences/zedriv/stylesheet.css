@@ -1,0 +1,18 @@
+.inheader{
+  top: 12vw;
+}
+.twobythree{
+  display: grid;
+  grid-template-columns: repeat(2,3fr)
+}
+.twobythree img{
+  width: 30vw;
+}
+.twobythree p{
+  padding: 2vw;
+  font-size: 1.2vw;
+  font-weight: 200;
+}
+#me_ev{
+  width: 20vw;
+}

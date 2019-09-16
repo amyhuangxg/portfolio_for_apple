@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
+		<meta charset="utf-8">
+		<meta name="description" content="A website that lets you compare the weather between two completely different places around the world.">
+		<link href="../css/stylesheet.css" rel="stylesheet">
+  <head>
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
+  <body class=framed>
+    <a class=homeButton href="index.html"><div class=roundButton><div class=homeIcon></div></div></a>
+    <h1 class="display errorPage">Oops!</h1>
+		<img class=logo src="../assets/logo.svg">
+		<div class="sprite_penguin_happy withLogo"></div>
+		<div class="sprite_polar_bear_happy withLogo"></div>
+    <p class=errorMessage>Looks like we don't have the data for this time yet! Please check back later.</p>
+		<a class="arrowButton errorPage"><button onclick="goBack()">Go Back</button></a>
+	<link href="../css/mediaqueriesarrows.css" rel="stylesheet">
+  <script>
+  function goBack() {
+    window.history.back()
+  }
+  </script>
+  </body>
+</html>

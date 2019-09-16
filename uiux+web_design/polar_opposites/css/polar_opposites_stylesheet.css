@@ -1,0 +1,126 @@
+.wireframe{
+  position: relative;
+}
+.wireframe .over{
+  z-index: 100;
+  position: absolute;
+  top:0;
+  left:0;
+  opacity: 0;
+}
+.wireframe .over:hover{
+  opacity: 100;
+}
+.style_guide{
+  position: relative;
+}
+.threebytwoblock{
+  display: grid;
+  width: 32.5vw;
+  height: 19vw;
+  grid-template-columns: repeat(3,2fr);
+  position: absolute;
+  top: 65vw;
+  left:15vw;
+}
+[class^="sprite"]{
+  z-index: 10;
+}
+  /* polar bear */
+.sprite_polar_bear_happy{
+  display:block;
+  background:transparent url("../assets/polar_bear_happy.svg") 0 0 no-repeat;
+  background-size:  900% 100%;
+}
+.sprite_polar_bear_happy:hover{
+  animation: characterSprite 1s steps(8) 1;
+}
+.sprite_polar_bear_confused{
+  display:block;
+  background:transparent url("../assets/polar_bear_confused.svg") 0 0 no-repeat;
+  background-size:  900% 100%;
+}
+.sprite_polar_bear_confused:hover{
+  animation: characterSprite 1s steps(8) 1;
+}
+.sprite_polar_bear_sad{
+  display:block;
+  background:transparent url("../assets/polar_bear_sad.svg") 0 0 no-repeat;
+  background-size:  900% 100%;
+}
+.sprite_polar_bear_sad:hover{
+  animation: characterSprite 1s steps(8) 1;
+}
+  /* penguin */
+.sprite_penguin_happy{
+  display:block;
+  background:transparent url("../assets/penguin_happy.svg") 0 0 no-repeat;
+  background-size:  900% 100%;
+}
+.sprite_penguin_happy:hover{
+  animation: characterSprite 1s steps(8) 1;
+}
+.sprite_penguin_confused{
+  display:block;
+  background:transparent url("../assets/penguin_confused.svg") 0 0 no-repeat;
+  background-size:  900% 100%;
+}
+.sprite_penguin_confused:hover{
+  animation: characterSprite 1s steps(8) 1;
+}
+.sprite_penguin_sad{
+  display:block;
+  background:transparent url("../assets/penguin_sad.svg") 0 0 no-repeat;
+  background-size:  900% 100%;
+}
+.sprite_penguin_sad:hover{
+  animation: characterSprite 1s steps(8) 1;
+}
+  /* keyframes */
+@keyframes characterSprite{
+  0% {background-position: 0 0;}
+  100% {background-position: 100% 0%;}
+}
+/* sizing */
+[class^="sprite"]{
+  width:8.5vw;
+  height:8.5vw;
+}
+[class^="issue"]{
+  display: grid;
+  width: 40vw;
+  grid-template-columns: repeat(2,1fr);
+}
+iframe.polar_opposites{
+  position: relative;
+  width: 100%;
+  height: 42.5vw;
+  margin-bottom: 1vw;
+}
+[class^="issue"] img{
+  width: 17.5vw;
+  padding: 1vw 0;
+}
+[class^="productfeature"]{
+  display: grid;
+  width: 60vw;
+  grid-template-columns: repeat(3,1fr);
+}
+[class^="productfeature"] img{
+  height: 17.5vw;
+  padding: 1vw 1vw 1vw 0;
+}
+[class^="productfeature"] div{
+  width: 17.5vw;
+}
+.programs img{
+  height: 5vw;
+}
+.product.programs{
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  padding: 0 3vw;
+}
+.presentation.programs{
+  margin-left: 12.5vw;
+}

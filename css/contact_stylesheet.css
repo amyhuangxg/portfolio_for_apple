@@ -1,0 +1,42 @@
+body{
+  height: 100vh;
+  overflow: hidden;
+}
+.nine{
+  z-index: 90;
+  width: 25vw;
+  opacity:0.9;
+}
+.nine [class*="unfold"]{
+  position: absolute;
+  top:-6vw;
+}
+.nine [class*="unfold"].text{
+  position: absolute;
+  top:2vw;
+  height:25vw;
+  width: 25vw;
+  overflow: scroll;
+  text-align: center;
+}
+div.plane{
+  display: inline-block;
+  position: relative;
+  top:12vw;
+  left: 15vw;
+}
+.visonhover{
+  opacity:0;
+  height: 0;
+}
+.visonhover:hover{
+  opacity: initial;
+}
+.contact_details{
+  position: absolute;
+  left: 60vw;
+  top: 19vw;
+}
+.contact_details a:hover{
+  font-weight: 700;
+}

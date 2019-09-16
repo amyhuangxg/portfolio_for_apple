@@ -57,7 +57,7 @@ body{
 .mainfeatureblock img{
   display: block;
   width: 94vw;
-  height: 38.4vw;
+  /* height: 38.4vw; */
   background-color: #f4f4f4f4;
 }
 .header{

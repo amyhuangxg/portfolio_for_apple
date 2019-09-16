@@ -141,3 +141,6 @@ img.strap_number{
   grid-template-columns: repeat(4,1fr);
   padding: 0 6.5vw;
 }
+.twox1>p.move{
+  width: 15vw;
+}

@@ -131,6 +131,9 @@ img.small_content_width{
 img.large_content_width{
   width:75vw;
 }
+video.large_content_width{
+  width:75vw;
+}
 footer{
   display: block;
   position: relative;

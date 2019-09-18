@@ -6,3 +6,8 @@ img.tests{
   width: 100%;
   height: auto;
 }
+.programs img{
+  height: 5vw;
+  width: auto;
+  margin-left: 18.25vw;
+}

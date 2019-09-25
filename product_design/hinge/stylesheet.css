@@ -1,0 +1,49 @@
+.twobysix{
+  display: grid;
+  grid-template-columns: repeat(2,6fr)
+}
+.twobysix img{
+  width: 30vw;
+  margin-right: 2vw;
+}
+.twobysix p{
+  font-size: 1.2vw;
+  font-weight: 200;
+  width: 20vw;
+}
+.fivebyone{
+  display: grid;
+  grid-template-columns: repeat(5,1fr)
+}
+.fivebyone img{
+  width: 10vw;
+}
+.twobytwo{
+  display: grid;
+  grid-template-columns: repeat(2,2fr);
+  padding: 1vw;
+}
+.twobytwo img{
+  width: 15vw;
+  margin-left: 10vw;
+  padding: 1vw;
+}
+.twobytwo p{
+  font-size: 1.2vw;
+  font-weight: 200;
+  padding: 1vw;
+}
+.bottom{
+  width: 100vw;
+}
+.programs img{
+  height: 5vw;
+}
+.product.programs{
+  margin-left: 17.5vw;
+}
+.presentation.programs{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 0 11.5vw;
+}

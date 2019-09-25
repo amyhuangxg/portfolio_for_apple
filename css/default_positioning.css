@@ -121,6 +121,9 @@ body{
 img.full_content_width{
   width: 60vw;
 }
+.full_content_width{
+  width: 60vw;
+}
 img.small_content_width{
   width:40vw;
 }
@@ -133,6 +136,10 @@ img.large_content_width{
 }
 video.large_content_width{
   width:75vw;
+}
+img.extra_large_content_width{
+  width: 90vw;
+  margin-left: 5vw;
 }
 footer{
   display: block;

@@ -8,6 +8,7 @@
 		<meta name="description" content="A project that explores a different way of thinking about connections and building blocks.">
 		<link href="../../css/stylesheet.css" rel="stylesheet">
 		<link href="../../css/default_positioning.css" rel="stylesheet">
+		<link href="stylesheet.css" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="../../assets/crane_icon.png">
 		<title>Hinge</title>
 	</head>
@@ -21,7 +22,7 @@
       <ul class="barmenu attop">
 				<li><a class=uiux+web_design href="../../uiux+web_design/index.html">UIUX + Web<br>Design</a></li>
 				<li><a class=product_design href="../../product_design/index.html">Product<br>Design</a></li>
-	      <li><a class=initiatives+experiences href="../../initiatives+experiences/index.html">Initiatives +<br>Experiences</a></li>
+	      <li><a class=initiatives+experiences href="../initiatives+experiences/index.html">Initiatives +<br>Experiences</a></li>
 	      <li><a class=paper+wood+metal href="../../paper+wood+metal/index.html"> Paper + Wood<br>+ Metal</a></li>
 	    </ul>
 		</div>
@@ -37,15 +38,118 @@
 				<div class="textbox centered">
 					<h4>Introduction</h4>
 
-					<p>Intro</p>
+					<p>The aim of this project was to create a connection method in Solidworks that could be tested using 3D printed parts.</p>
 
 					<h4>What is a Connection</h4>
-				</div>
-				<div class="full_content_width">
-					<img src=assets/concepts.jpg>
+
+					<p>This started with exploring what a plastic connection could be and some of the typical connections or joints that exist in the world around us.</p>
 				</div>
 			</div>
+			<div class=contentblock>
+				<img class=full_content_width src=assets/connections.jpg>
 
+				<div class="textbox centered">
+					<h4>Concepts</h4>
+
+					<p>I quickly realised that I was much more interested in the potential systems that connections create or at least lend themselves to or encourage. Many times, connections are a means to an end but, at the same time, each type of connection opens up a whole network of possibilities and structures. Hence, most of my initial concepts moving forward involved some sort of system consideration.</p>
+				</div>
+			</div>
+			<div class=extra_large>
+				<img class="fit extra_large_content_width" src=assets/concepts.jpg>
+			</div>
+			<div class=contentblock>
+				<div class="textbox centered">
+					<p>In my later concepts - while thinking about Lego and Magnetix - I also became interested in how play could drive the exploration of network structure.</p>
+					<h4>Chosen Concept</h4>
+				</div>
+				<img class=med_content_width src=assets/chosen_concept.png>
+				<div class="textbox centered">
+					<p>In the end, I chose blocks which connected via corner hinges. I wanted to challenge both the perceived permanence of hinge connections and the lack of dynamicality in typical &#40;building block&#41; toys.</p>
+					<h4>Details</h4>
+				</div>
+				<img class=med_content_width src=assets/detail.png>
+				<img class=med_content_width src=assets/scale_ortho.png>
+				<div class="textbox centered">
+					<p>Bringing the design into Solidworks involved many more practical and dimensional considerations. I went through many iterations just in the modelling stage alone, before any of the testing even began.</p>
+					<h4>Testing</h4>
+				</div>
+				<div class=twobysix>
+					<img src=assets/test_1.jpg>
+					<div>
+						<p>Testing began with simply printing my design on the Stratasys 3D printer. It had disolvable support material which allowed for the &#40;ship in a bottle&#41; design for the internal spring-and-button component.</p>
+
+						<p>The model proved to be reasonably ideal in size but the buttons did not move at all. With no other way to investigate the interior, I sawed the prototype open and noted that the buttons were slightly stuck from leftover support material.</p>
+					</div>
+					<img src=assets/test_2.jpg>
+					<div>
+						<p>The second test gave the buttons a larger clearance and the prototype more time in the solvent bath. The buttons began moving as expected. However, this was immediately followed by a crunching noise: instead of being compressed, the spring had been crushed.</p>
+
+						<p>Sawing this one open, I realised that the breakage happened near the ends of the spring and along the grain.</p>
+					</div>
+					<img src=assets/test_3.jpg>
+					<div>
+						<p>Using the previous buttons and outer structure, I started to hone in on testing the spring component. In my third test, I used rings at the ends of the spring to avoid stresses from direct attachement to the buttons and made the spring thicker to battle grain issues.</p>
+
+						<p>However, directly seeing this break made me realised that the threshold for spring-like bending behavior for a Stratasys print would require a thickness well below the threshold for breakage along the grain. There was no overlap and no way to avoid a short grain with spring geometry.</p>
+					</div>
+					<img src=assets/test_4.jpg>
+					<div>
+						<p>To eliminate my grain-direction problem, I moved to the Ojet 3D printer which uses a process that does not create an inherent grain. </p>
+
+						<p>I tested this new material and found much more success. The spring still broke, but this time in much more random locations which indicated that there were too few revolutions, causing the angle to be too extreme.</p>
+					</div>
+					<img src=assets/test_5.gif>
+					<p>More revoluntions were added and, on the next test, the spring worked!</p>
+					<img src=assets/test_6.jpg>
+					<p>The final challenge was to make the system work together. I halved the outer shell so that it could hold then enclose the inner components for ease of assembly. When everything was put together, I pressed the buttons and, finally, it worked!</p>
+				</div>
+				<div class="textbox centered">
+					<h4>Final</h4>
+				</div>
+				<img class=med_content_width src=assets/final_button.gif>
+				<div class="textbox centered">
+					<p>When the buttons are pressed, the hinge rods retract inward.</p>
+				</div>
+				<img class=med_content_width src=assets/final_connection.gif>
+				<div class="textbox centered">
+					<p>While retracted, the hinge rods are placed between the hinge shells and released so that the rods fit within the shells. In its released state, the connection operates as a hinge.</p>
+				</div>
+				<div class="textbox centered">
+					<h4>Product Development</h4>
+					<p>To develop this idea into a product, I envisioned a variety of shell and rod arrangements with different color combinations to simulating experience for a market of children aged 4 to 6.</p>
+				</div>
+				<div class="large_content_width fivebyone">
+					<img src=assets/gr.png>
+					<img src=assets/yb.png>
+					<img src=assets/bo.png>
+					<img src=assets/rp.png>
+					<img src=assets/py.png>
+				</div>
+				<div class=twobytwo>
+					<img src=assets/detail_round.png>
+					<p>Round rod ends will create a moving hinge as described.</p>
+					<img src=assets/detail_square.png>
+					<p>Meanwhile, square rod ends - when inserted into the square shells - will hold still for added sructural strength.</p>
+				</div>
+			</div>
+			<img class=bottom src=assets/bottom.png>
+			<div class=contentblock>
+				<div class="textbox centered">
+					<div class=footer>
+						<p>Programs used in the creation of this product include</p>
+						<div class="product programs">
+							<img src="../../assets/solidworks_icon.png">
+						</div>
+						<p>Programs used in the compliation of this product for presentation include</p>
+						<div class="presentation programs">
+							<img src="../../assets/keyshot_icon.png">
+							<img src="../../assets/adobe_photoshop_icon.png">
+							<img src="../../assets/adobe_premiere_icon.png">
+						</div>
+						<p>Special thanks to Bill, our wonderful lab technician, for sharing my curiosity and persistence through every of the many 3D print tests.</p>
+					</div>
+				</div>
+			</div>
 			<footer class=indexbottom>
 				<a class=backtotop href="#templatetop">back to top</a>
 			</footer>

@@ -6,10 +6,12 @@ $(document).on("scroll", function(){
 
   $(".comma").css("top", distanceScrolled*-2);
   $(".first").css("top", distanceScrolled*-2);
-  $(".introparagraph").css("right", distanceScrolled*-2.5);
-  $(".herein").css("left", distanceScrolled*-3.5);
+  $(".introparagraph").css("right", distanceScrolled*-2.7);
+  $(".herein").css("left", distanceScrolled*-6.5);
   $(".aboutlink").css("left", distanceScrolled*-2);
   $(".contactlink").css("right", distanceScrolled*-2);
+  $("img.downarrow").css("top", distanceScrolled*-1.5);
+  // $("img.downarrow").css("opacity", 100-distanceScrolled*3);
 
   if (distanceScrolled < winW*0.07){
     $(".aboutlink").css("top", 0);
